@@ -1,0 +1,29 @@
+ul.menum {list-style:none; margin:0; padding:0; font-size:11px; font-weight:bold; font-family:Tahoma;}
+ul.menum * {margin:0; padding:0}
+ul.menum a {display:block;  text-decoration:none; color:#b2b3b4;}
+ul.menum a:hover, ul.menum a.actv{color:#333;}
+ul.menum li {position:relative !important; float:left; margin:0px 9px; height:20px;}
+ul.menum ul {position:absolute; top:20px; left:-150px;  display:none; opacity:0; list-style:none; width:189px; background:#636466; }
+ul.menum ul li {position:relative; width:183px; margin:0 3px; padding:3px 0; border-bottom:1px solid #d2d3d5;}
+ul.menum ul li a {display:block; padding:4px 5px 4px 5px; margin:0px 5px 0px 5px; height:13px; display:block; color:#b2b3b4;}
+ul.menum ul li a:hover { color:#FFFFFF; xbackground-image:url(images/bg-hover.png); background-repeat:no-repeat; color:#333;}
+
+ul.menum ul li ul{position:absolute; top:0px; left:183px;  display:none; opacity:0; list-style:none; width:189px; }
+ul.menum ul li ul li {position:relative; width:189px; margin:0;}
+ul.menum ul li ul li a {display:block; padding:4px 5px 4px 5px; margin:0px 5px 0px 5px; height:13px; display:block; width:169px;}
+ul.menum ul li ul li a:hover { color:#333; xbackground-image:url(images/bg-hover.png); background-repeat:no-repeat; width:169px;}
+
+
+ul.menuf {list-style:none; margin:0; padding:0; font-size:11px; font-weight:bold; font-family:Tahoma;}
+ul.menuf * {margin:0; padding:0}
+ul.menuf a {display:block;  text-decoration:none;}
+ul.menuf li {position:relative !important; float:left; }
+ul.menuf ul {position:absolute; xtop:-96px; left:-23px;  display:none; opacity:0; list-style:none; width:189px; bottom:0px;  }
+ul.menuf ul li {position:relative; width:189px; margin:0;}
+ul.menuf ul li a {display:block; padding:4px 5px 4px 5px; margin:0px 5px 0px 5px; height:13px; display:block; width:169px;}
+ul.menuf ul li a:hover { color:#FFFFFF; background-image:url(ximages/bg-hover.png); background-repeat:no-repeat; width:169px;}
+
+ul.menuf ul li ul{position:absolute; bottom:-15px; left:189px;  display:none; opacity:0; list-style:none; width:189px; }
+ul.menuf ul li ul li {position:relative; width:189px; margin:0;}
+ul.menuf ul li ul li a {display:block; padding:4px 5px 4px 5px; margin:0px 5px 0px 5px; height:13px; display:block; width:169px;}
+ul.menuf ul li ul li a:hover { color:#FFFFFF; xbackground-image:url(images/bg-hover.png); background-repeat:no-repeat; width:169px; cursor:}

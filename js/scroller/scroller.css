@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#bgScroll {
+	height:100%;
+	left:0;
+	overflow:hidden;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:-1;
+}
+div#bgScroll ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:0;
+}
+div#bgScroll ul li {
+	float:left;
+	position:relative;
+	overflow:hidden;
+	width:1002px;
+}
+div#bgScroll ul li img {
+	position:absolute;
+	right:0;
+}
+.frame {
+	background-color:#4D4D4F;
+	position:absolute;
+	top:101px;
+	z-index:1;
+}
+.frLeft { left:0; }
+.frRight { right:0; }
+.leftBar {
+	background-color:#908f95;
+	position:absolute;
+	top:101px;
+	width:275px;
+	z-index:1;
+}
+span.bgScrollArrowBg, span.bgScrollArrowBg a {
+	display:block;
+	height:35px;
+	width:23px;
+}
+span.bgScrollArrowBg {
+	position:absolute;
+	text-indent:-9999px;
+	top:55%;
+	z-index:2;
+}
+.aBgLeft { background:url(images/arrow_left.png) no-repeat; }
+.aBgRight { background:url(images/arrow_right.png) no-repeat; }
+
+.aBgLeft a { background-image:url(images/arrow_left.png); }
+.aBgRight a { background-image:url(images/arrow_right.png); }
+
+.topBarbg {
+	background:url(images/topBarbg.png) left top repeat-x;
+	width:100%;
+}
+
+.ImageScrollTop, .ImageScrollBottom {
+	background:url(/images/blank.png) repeat;
+	text-indent:-9999px;
+	display:block;
+	height:100px;
+	width:100px;
+	position:absolute;
+	left:500px;
+	width:867px;
+	z-index:100;
+}
+.ImageScrollTop { top:40px; }
+.ImageScrollBottom { bottom:120px; }
+.ImageScrollTop a, .ImageScrollBottom a{display:block;height:100px;}
